@@ -1,30 +1,27 @@
 # 🔐 Security-in-SDN-Project
+This project aims to simulate, analyze, and secure a Software Defined Networking (SDN) environment by identifying potential vulnerabilities and implementing attack detection mechanisms.
 
-Ce projet vise à simuler, analyser et sécuriser un réseau SDN (Software Defined Networking) en identifiant les vulnérabilités potentielles et en mettant en œuvre des mécanismes de détection d'attaques.
-
-## 📁 Structure du projet
+---
+## 📁 Project Structure
 ```text
 Security-in-SDN-Project/
 ├── scripts/
-│   ├── attack_simulation.py            # Simulation d’attaques dans Mininet
-│   ├── anomaly_detection.py            # Détection d’anomalies à partir du CSV
-│   └── traffic.csv                     # Données de trafic (normal + attaque)
+│   ├── attack_simulation.py            # Simulate attacks in Mininet
+│   ├── anomaly_detection.py            # Detect anomalies from the CSV
+│   └── traffic.csv                     # Network traffic data (normal + attack)
 ├── configs/
-│   ├── mininet_topology.py             # Définition de la topologie réseau SDN
-│   └── openflow_config.yaml            # Configuration OpenFlow (simulation)
+│   ├── mininet_topology.py             # Define the SDN network topology
+│   └── openflow_config.yaml            # OpenFlow configuration (simulation)
 └── README.md
 ```
+## 🎯 Project Objectives
+-Create a custom SDN topology in Mininet.
+-Simulate network attacks (e.g., flow injection, flooding attacks).
+-Collect traffic flows and extract features.
+-Detect abnormal behaviors using anomaly detection.
 
-## 🎯 Objectifs du projet
-
-- Créer une topologie SDN personnalisée dans Mininet.
-- Simuler des attaques réseau (ex. : injection de flux, attaques par inondation).
-- Collecter les flux de trafic et extraire les caractéristiques.
-- Détecter les comportements anormaux à l’aide de la détection d’anomalies.
-
-## ⚙️ Outils et technologies
-
-- **Mininet** : Simulation de topologies réseau SDN.
-- **Python** : Scripts de simulation et détection.
-- **OpenFlow** : Protocole de communication dans SDN.
-- **CSV** : Pour les données de trafic réseau.
+## ⚙️ Tools & Technologies
+-Mininet: SDN network topology simulation.
+-Python: Scripts for simulation and detection.
+-OpenFlow: Communication protocol in SDN.
+-CSV: For storing and analyzing network traffic data.
