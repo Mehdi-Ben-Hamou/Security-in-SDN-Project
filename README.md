@@ -15,13 +15,13 @@ Security-in-SDN-Project/
 └── README.md
 ```
 ## 🎯 Project Objectives
--Create a custom SDN topology in Mininet.
--Simulate network attacks (e.g., flow injection, flooding attacks).
--Collect traffic flows and extract features.
--Detect abnormal behaviors using anomaly detection.
+- Create a custom SDN topology in Mininet.
+- Simulate network attacks (e.g., flow injection, flooding attacks).
+- Collect traffic flows and extract features.
+- Detect abnormal behaviors using anomaly detection.
 
 ## ⚙️ Tools & Technologies
--Mininet: SDN network topology simulation.
--Python: Scripts for simulation and detection.
--OpenFlow: Communication protocol in SDN.
--CSV: For storing and analyzing network traffic data.
+- Mininet: SDN network topology simulation.
+- Python: Scripts for simulation and detection.
+- OpenFlow: Communication protocol in SDN.
+- CSV: For storing and analyzing network traffic data.
