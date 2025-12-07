@@ -3,15 +3,17 @@
 Ce projet vise à simuler, analyser et sécuriser un réseau SDN (Software Defined Networking) en identifiant les vulnérabilités potentielles et en mettant en œuvre des mécanismes de détection d'attaques.
 
 ## 📁 Structure du projet
-
-- /Security-in-SDN-Project
-  - /scripts/
-    - attack_simulation.py            # Simulation d’attaques dans Mininet
-    - anomaly_detection.py            # Détection d’anomalies à partir du CSV
-    - traffic.csv                     # Données de trafic (normal + attaque)
-  - /configs/
-    - mininet_topology.py             # Définition de la topologie réseau SDN
-    - openflow_config.yaml            # Configuration OpenFlow (simulation)
+```text
+Security-in-SDN-Project/
+├── scripts/
+│   ├── attack_simulation.py            # Simulation d’attaques dans Mininet
+│   ├── anomaly_detection.py            # Détection d’anomalies à partir du CSV
+│   └── traffic.csv                     # Données de trafic (normal + attaque)
+├── configs/
+│   ├── mininet_topology.py             # Définition de la topologie réseau SDN
+│   └── openflow_config.yaml            # Configuration OpenFlow (simulation)
+└── README.md
+```
 
 ## 🎯 Objectifs du projet
 
